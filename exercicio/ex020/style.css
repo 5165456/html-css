@@ -1,0 +1,21 @@
+@charset "UTF-8";
+:root{
+  --cor0:darkblue;
+}
+
+div{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: lightgray;  
+  }
+  #vermelho{
+    background-color: rgb(140, 0, 0);
+  }        
+  #verde{
+    background-color:rgb(1, 110, 1) ;
+  }        
+  #azul{
+    background-color: var(--cor0);
+  }

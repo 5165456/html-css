@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+    font-family: arial;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20pt;
+}
+p.left{
+    text-align: left;
+}
+p.mark{
+    background-color: rgb(255, 255, 161);
+}
+p.cent{
+    text-align: center;
+}
