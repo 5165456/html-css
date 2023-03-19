@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=" pt-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,30 +11,28 @@
         }
         h1{
             text-transform: uppercase;
-            font-size: 2em;
-            margin: 22px 0px ;
         }
-        .Fundo{
+        .a{
+            background-color: lightgray;
             height: 50vh;
             border: 4px solid black;
-            background-color: lightgray;
             position: relative;
         }
-        .Centro{
+        .b{
             margin: 0;
             background-color: gray;
             position: absolute;
             top: 50%;
-            left: 50%;
+            left: 50%;  
             transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <section class="Fundo">
-        <article class="Centro">
-            <h1>Texto Centralizado</h1>
-        </article>
-    </section>
+    <div class="a">
+        <div class="b">
+            <h1>texto centralizado</h1>
+        </div>
+    </div>
 </body>
 </html>
